@@ -51,8 +51,10 @@ After running the Inferential test we find that the probability of the people in
 plot(TukeyHSD(model1))
 ```
 
-When looking at the model we see that the middle compared to the back does not have 0 in their confidence interval. The same is true when you compare the front and the back. This also indicates that their is no statistical difference between the front and the middle. The back is diffrent from everybody else. 
+When looking at the model we see that the middle compared to the back does not have 0 in their confidence interval. The same is true when you compare the front and the back. This also indicates that their is no statistical difference between the front and the middle. The back is different from everybody else. 
 
 ## Conclusions
+
+When going through the process with more than two variables there are more steps that we have to go through which can complicate the process. In this assignment we used ggplot to create our boxplot which showed us the median of how man drinks were consumed per section. Then we ran a Numerical summary of the information so that we could get exact numbers and see how big the difference was. After this we ran the Inferential test to get the probability of these three sections consuming the same amount of alcohol which was 0.000116. We then used a comparison model that showed us how significant the difference between each section was. I have came to the conclusion that there is a significant difference between how much alcohol the three sections consumed. 
 
 
