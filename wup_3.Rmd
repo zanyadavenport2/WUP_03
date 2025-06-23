@@ -40,6 +40,11 @@ The third quantile of the front is 2 and the the third quantile of the middle is
 
 ## Inferential Tests
 
+```{r}
+model1 <- aov(alcohol~Seat,data=davisdata)
+summary.aov(model1)
+```
+
 ## Conclusions
 
 
