@@ -36,6 +36,8 @@ Based off the boxplot the median of people who sit in the back as I see it is hi
 favstats(alcohol~Seat,data=davisdata)
 ```
 
+The third quantile of the front is 2 and the the third quantile of the middle is 3. The median of the back is 4 so in this case the median of the back is higher than the third quantile of both the front and middle.
+
 ## Inferential Tests
 
 ## Conclusions
