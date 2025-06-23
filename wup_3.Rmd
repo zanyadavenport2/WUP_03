@@ -32,6 +32,10 @@ Based off the boxplot the median of people who sit in the back as I see it is hi
   
 ## Numerical Summarys 
 
+```{r}
+favstats(alcohol~Seat,data=davisdata)
+```
+
 ## Inferential Tests
 
 ## Conclusions
