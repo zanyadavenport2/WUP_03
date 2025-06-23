@@ -47,6 +47,12 @@ summary.aov(model1)
 
 After running the Inferential test we find that the probability of the people in the front and middle consuming the same amount of alcohol as the people in the back being 0.000116. Therefore there is a significant difference between the 3.
 
+```{r}
+plot(TukeyHSD(model1))
+```
+
+When looking at the model we see that the middle compared to the back does not have 0 in their confidence interval. The same is true when you compare the front and the back. This also indicates that their is no statistical difference between the front and the middle. The back is diffrent from everybody else. 
+
 ## Conclusions
 
 
